@@ -44,7 +44,7 @@ unique as
          traces
 )
 ```
-####3. Correct the order of hops
+#### 3. Correct the order of hops
 Finally, we correct the order of the hops and select the final dataset for further analysis. 
 ```sql
 select
