@@ -22,7 +22,7 @@ Note that we have to unnest the hops since they are NESTED schema to filter resu
 
 
 #### 2. Get unique pairs
-Traceroute sends three packets for each hop. In our dataset, we have three responses from the same hop. Since we are only interested in topology, we discard the additional information andonly keep unique hops. 
+Traceroute sends three packets for each hop. In our dataset, we have three responses from the same hop. Since we are only interested in topology, we discard the additional information and only keep unique hops. 
 
 ```sql
 unique as 
