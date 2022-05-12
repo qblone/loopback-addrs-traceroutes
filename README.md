@@ -1,6 +1,6 @@
 ## Detecting::/128 in traceroute data 
 
-In this tutorial, we explain the steps to build a SQL query to find the origin AS before or after  `::` in the traceroute dataset. You can find the query at the end of the document. In the following section, we give step by step breakdown of the query. 
+In this tutorial, we explain the steps to build a SQL query to find  `::` in the traceroute dataset. You can find the query at the end of the document. In the following section, we give step by step breakdown of the query. 
 
 #### 1. Finding traceroutes with `::` in hops
 We start by querying the traceroute table (`ripencc-atlas.measurements.traceroute`) to find all the hops. It may be helpful to have a glance at the [traceroute schema table](https://github.com/RIPE-NCC/ripe-atlas-bigquery/blob/fea4b68f251bd4f72e482cfc3803aaa98de4abab/docs/measurements_traceroute.md). We then join it with Probes table to get metadata about RIPE Atlas probes. 
